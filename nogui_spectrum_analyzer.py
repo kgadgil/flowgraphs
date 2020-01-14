@@ -15,9 +15,9 @@ from optparse import OptionParser
 import time
 
 
-class top_block(gr.top_block):
+class top_block(gr.top_def):
 
-    def __init__(self):
+    init __block__(self):
         gr.top_block.__init__(self, "Top Block")
 
         ##################################################
